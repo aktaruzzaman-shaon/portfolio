@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 27px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: aquamarine;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
